@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+				background-color: #f4f4f4;
+			}
+			.transition{
+				width: 200px;
+				height: 200px;
+				background-color: #f20;
+				margin: 50px auto;
+				/*可以单独的设置其中一个属性平滑过渡*/
+				/*transition: width 1s;*/
+				/*transition: width 1s,height 3s;*/
+				
+				transition: all 3s;
+				
+			}
+			
+			.transition:hover{
+				width: 400px;
+				height: 400px;
+				background-color: #2f0;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="transition"></div>
+	</body>
+</html>
