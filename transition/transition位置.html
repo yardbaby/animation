@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: #f3f3f3;
+			}
+			.transition{
+				width: 200px;
+				height: 200px;
+				
+			}
+			.transition .box{
+				width: 200px;
+				height: 200px;
+				background-color: #670;
+				position: absolute;
+				left: 50px;
+				top: 50px;
+				/*transition: all 3s;*/
+				/*transition: all 1s linear 2s;*/
+				
+				/*设置需要过渡效果的属性*/
+				transition-property: all;
+				
+				/*过渡效果的持续时间*/
+				transition-duration: 2s;
+				
+				/*设置动画的延时*/
+				/*transition-delay: 3s;*/
+				
+				/*设置过渡的速度 linear ease ease-in ease-out ease-in-out*/
+				transition-timing-function: ease-out;
+			}
+			.transition:hover .box{
+				left: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="transition">
+			<div class="box"></div>
+		</div>
+	</body>
+</html>
