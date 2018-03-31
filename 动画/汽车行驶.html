@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			html,body{
+				height: 100%;
+			}
+			body{
+				margin: 0;
+				padding: 0;
+				position: relative;
+				
+			}
+			.car{
+				width: 240px;
+				position: absolute;
+				top: 50%;
+				transform: translate(100px,-50%);
+				animation: run 2s forwards 2s;
+			}
+			img{
+				display: block;
+				width: 100%;
+			}
+			
+			/*定义动画状态*/
+			@keyframes run {
+				0% {
+					
+				}
+				
+				15% {
+					/*往后撤, 并倾斜*/
+					transform: translate(0,-50%) skew(30deg);
+				}
+				
+				90% {
+					/*往前跑, 并倾斜*/
+					transform: translate(800px,-50%) skew(-20deg);
+					animation-timing-function: ease-in;
+				}
+				
+				100% {
+					/*倾斜*/
+					transform: translate(800px,-50%) skew(0deg);
+					/*改变转换原点*/
+					transform-origin: right bottom;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="car">
+			<img src="./img/car.jpg" alt="" />
+		</div>
+	</body>
+</html>
