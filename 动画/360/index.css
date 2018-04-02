@@ -1,5 +1,5 @@
 body {
-	max-width: 850px;
+	min-width: 850px;
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
@@ -13,11 +13,13 @@ body {
 .logo{
 	margin: 0;
 	padding: 0;
+	top: 15px;
 	width: 195px;
 	height: 55px;
 	background: url(./img/logo.jpg) no-repeat;
 	position: absolute;
-	top: 15px;
+	left: 50%;
+	margin-left: -490px;
 	font-size: 12px;
 	text-indent: -300px;
 	overflow: hidden;
@@ -35,10 +37,46 @@ body {
 	margin-right: 32px;
 	color: #777;
 }
+.tabnav {
+	float: left;
+	background: url(./img/tabtn.png) no-repeat;
+	width: 171px;
+	height: 30px;
+	margin-top: -5px;
+	position: relative;
+}
+.tabnav a {
+	height: 100%;
+	width: 49.5%;
+	margin: 0!important;
+	padding: 0;
+}
 
+
+
+
+.title {
+	
+}
+
+@media (max-width: 1330px) {
+	.menu {
+		left: auto;
+		right: 75px;
+	}
+}
 @media (max-width: 1070px) {
+	.logo {
+		left: 20px;
+		margin-left: 0;
+	}
+	.menu {
+		left: 38%;
+		right: 20px;
+	}
 	.menu a {
 		margin-right: 20px;
 	}
+	
 }
 
