@@ -1,0 +1,243 @@
+body {
+	min-width: 850px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "Microsoft YaHei","\5fae\8f6f\96c5\9ed1",Helvetica,Arial,sans-serif;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.header{
+	position: relative;
+	height: 80px;
+	min-width: 850px;
+}
+.logo{
+	margin: 0;
+	padding: 0;
+	top: 15px;
+	width: 195px;
+	height: 55px;
+	background: url(../img/logo.jpg) no-repeat;
+	position: absolute;
+	left: 50%;
+	margin-left: -490px;
+	font-size: 12px;
+	text-indent: -300px;
+	overflow: hidden;
+}
+.menu {
+	position: absolute;
+	left: 50%;
+	margin-left: -70px;
+	top: 30px;
+	
+}
+.menu a {
+	float: left;
+	text-decoration: none;
+	margin-right: 32px;
+	color: #777;
+}
+.tabnav {
+	float: left;
+	background: url(../img/tabtn.png) no-repeat;
+	width: 171px;
+	height: 30px;
+	margin-top: -5px;
+	position: relative;
+}
+.tabnav a {
+	height: 100%;
+	width: 49.5%;
+	margin: 0!important;
+	padding: 0;
+}
+
+
+
+
+.title {
+	width: 657px;
+	height: 310px;
+	background: url(../img/title.gif) no-repeat;
+	margin: 172px auto 0;
+	position: relative;
+}
+
+.btnContent a {
+	float: left;
+	width: 236px;
+	height: 58px;
+	margin-top: 158px;
+	background: url(../img/btn_dl.gif) -34px -29px no-repeat;
+	cursor: pointer;
+}
+
+.title a {
+	text-decoration: none;
+	color: #888;
+	font-size: 13px;
+}
+
+.download_1 {
+	margin-right: 15px;
+	margin-left: 168px;
+}
+
+.btnContent .download_1 {
+	margin-left: 208px;
+	margin-top: 177px;
+}
+
+
+
+.btnContent .download_82 {
+	background: 0;
+	width: auto;
+	height: auto;
+	margin: 228px 0 0 -30px;
+}
+
+.btnContent .download_82 {
+	margin-top: 244px;
+	margin-left: -114px;
+	
+}
+
+.btnContent a span {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.titleAnim {
+	position: absolute;
+	display: block;
+	z-index: -1;
+}
+
+.titleAnim1 {
+	top: -90px;
+	right: -228px;
+	width: 113px;
+	height: 118px;
+	background: url(../img/circl_top.jpg) 0 0 no-repeat;
+}
+
+.titleAnim2 {
+	left: -225px;
+	top: 260px;
+	width: 313px;
+	height: 308px;
+	background: url(../img/circl_left.png) 0 0 no-repeat;
+}
+
+.titleAnim3 {
+	right: -330px;
+	top: 193px;
+	width: 526px;
+	height: 429px;
+	background: url(../img/circl_right.png) 0 0 no-repeat;
+}
+
+.titleAnim4 {
+	left: -535px;
+	top: -120px;
+	width: 355px;
+	height: 355px;
+	background: url(../img/circl_shadow.png) 0 0 no-repeat;
+}
+
+.bwrap {
+	width: 100%;
+	position: absolute;
+	top: 552px;
+	z-index:30;
+}
+.btab {
+	width: 260px;
+	height: 33px;
+	background: url(../img/tab.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	transform: translate(-380px,46px);
+	z-index: 10;
+	
+}
+.brwser {
+	width: 956px;
+	height: 520px;
+	position: absolute;
+	left: 50%;
+	margin-left: -478px;
+	transform: perspective(875px) rotateX(25deg) translate3d(0,0,0);
+}
+
+.defskin {
+	width: 100%;
+	height: 100%;
+	background: url(../img/browser_3.png) 0 0 no-repeat;
+}
+
+
+
+
+
+.section:nth-child(3) {
+	/*background-color: red;*/
+	
+}
+
+/*.browser_bg {
+	width: 956px;
+	height: 520px;
+	background: url(../img/browser_3.png) 0 0 no-repeat;
+	margin-top: 184px;
+	opacity: 0;
+}*/
+
+
+
+
+
+
+
+.section:nth-child(4) {
+	background-color: blue;
+}
+
+.section:nth-child(5) {
+	background-color: green;
+}
+
+.section:nth-child(6) {
+	background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
